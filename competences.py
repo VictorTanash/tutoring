@@ -1,0 +1,1 @@
+COMPETENCES = ['Mathematics', 'English', 'Russian', 'Informatics', 'Physics', 'Chess']
