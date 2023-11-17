@@ -7,9 +7,10 @@ class Group:
     study = ''
     teacher = None
     administrator = None
+    group_id = -1
 
-    def __init__(self, group_number: int, study: str):
-        self.group_number = group_number
+    def __init__(self, group_id: int, study: str):
+        self.group_number = group_id
         self.study = study
 
     def add_student(self, student: Student):
